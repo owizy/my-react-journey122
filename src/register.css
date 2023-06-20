@@ -1,0 +1,100 @@
+form{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 30px;
+    gap:15px;
+    border-radius: 10px;
+}
+
+form > *{
+   width: 100%; 
+   
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.profile img{
+    width: 60px;
+}
+
+.profile input{
+    display: none;
+}
+
+.profile label{
+    background-color: green;
+    color:rgba(255,255,255,0.7);
+    font-size: 11px;
+    width: fit-content;
+    padding: 7px 10px;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.profile label:hover{
+    color:white;
+}
+
+.input-group input, select, button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    
+}
+
+.input-group input[type=radio]{
+    width: fit-content;
+}
+
+
+.radio-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:50px;
+
+}
+
+.radio-group label{
+    width: fit-content;
+}
+
+.gender-box{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    
+ 
+}
+
+
+button {
+    background-color: darkorange;
+    color:white;
+    border:none;
+}

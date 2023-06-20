@@ -1,0 +1,61 @@
+section{
+    width:100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: relative;
+    background-color: rgb(1, 1, 104);
+    overflow: hidden;
+ 
+    
+}
+
+
+section h1{
+    width: 60%;
+    text-align: left;
+    padding: 20px 0;
+    color:white;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+section div{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-image: url("./pattern.png");
+    background-size: cover;
+    background-position: right center;
+    background-color: darkorange;
+    right: -450px;
+    top:-300px;
+    border-left: 5px solid white;
+  
+}
+
+section  button {
+    background-color: transparent;
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-left: 100px;
+}
+
+section div button:hover {
+    background-color: white;
+    color:darkorange;
+    border: 1px solid white;
+}

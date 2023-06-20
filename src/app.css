@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    position: relative;
+}
+header{
+     width: 100%;
+     height: 70px;
+     background-color: white;
+     color:#333;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 30px;
+}
+
+header h1{
+    font-size: 17px;
+    color:#333;
+
+}
+
+header nav{
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+    color:#333;
+    text-decoration: none;
+}
+
+.theme-btn{
+    position: absolute;
+    top:25px;
+    right: 10px;
+    background-color: transparent;
+    border: 1px solid #333;
+    font-size: 14px;
+    width: fit-content;
+    color:#333;
+    padding: 7px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s all ease;
+
+}
+
+.theme-btn:hover{
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    color:white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.story{
+    color:yellow;
+}
+
+/* counter css style rules */
+.counter-container{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 30px;
+}
+
+.friend{
+    width: 60%;
+    padding: 20px;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.counter-container button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.counter-container span{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* profile */
+.profile-card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    gap:30px;
+    position: relative;
+    transition: 1s all ease;
+}
+
+.profile-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid darkorange;
+}
+
+.profile-card div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.profile-card h3{
+    font-size: bold;
+    width: 100%;
+    text-align: left;
+    
+}
+
+.profile-card h3 span{
+    color:darkcyan;
+}
+
+.profile-card p{
+    width: 100%;
+    text-align:left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.profile-card small{
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    color:darkorange;
+    padding: 20px;
+}
+
+.profile-card button{
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color:white;
+    border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.profile-card button:hover{
+    filter: invert(1);
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+}
+
+footer p{
+    color:#333;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+}
